@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragable Window</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./vue.min.js"></script>
+</head>
+<body>
+    <div id='container' @mousedown="downflag=true" @mouseup="downflag=false" v-bind:style='{left:left+"px",top:top+"px"}'>
+        <p><span v-text='left'></span>,<span v-text='top'></span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
