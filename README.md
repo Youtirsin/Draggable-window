@@ -1,2 +1,2 @@
 # Draggable window
- a draggable window  with vue.
+ a draggable window  using vue.
